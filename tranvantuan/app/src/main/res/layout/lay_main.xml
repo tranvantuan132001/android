@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="130dp"
+        android:background="@color/black"
+        android:width="1dp"/>
+
+</RelativeLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/tvQuantity"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Quantity:"
+           android:textSize="25sp"
+           android:layout_marginLeft="20sp"
+           android:layout_marginTop="100sp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="2sp"
+           android:layout_marginTop="130dp"
+           android:layout_marginLeft="130dp"
+           android:background="@color/black"
+           android:width="1dp"/>
+   </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:id="@+id/btADD"
+           android:layout_width="280dp"
+           android:layout_height="60dp"
+           android:layout_marginTop="160dp"
+           android:background="#40D4CDDD"
+           android:text="ADD"
+           android:layout_marginLeft="130dp"
+           android:textSize="18sp"/>
+
+       <Button
+           android:id="@+id/btView"
+           android:layout_width="280dp"
+           android:layout_height="60dp"
+           android:layout_marginTop="230dp"
+           android:background="#40D4CDDD"
+           android:text="VIEW"
+           android:layout_marginLeft="130dp"
+           android:textSize="18sp"/>
+   </RelativeLayout>
+
+
+</RelativeLayout>
